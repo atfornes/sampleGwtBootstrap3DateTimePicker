@@ -3,7 +3,10 @@
   <groupId>SampleDateTimePicker</groupId>
   <artifactId>SampleDateTimePicker</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+
     <properties>
+
         <warSourceDirectory>${basedir}/war</warSourceDirectory>
     <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
         <hostedWebapp>${basedir}/war</hostedWebapp>
